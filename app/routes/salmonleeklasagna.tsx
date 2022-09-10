@@ -1,6 +1,6 @@
 import type { LinksFunction, MetaFunction } from '@remix-run/node';
 
-import salmonLeekLasagna from './images/salmonleeklasagna.png';
+import salmonLeekLasagna from '~/images/salmonleeklasagna.png';
 import recipeStylesUrl from '~/styles/recipe.css';
 
 export const links: LinksFunction = () => {
