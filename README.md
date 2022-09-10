@@ -33,3 +33,5 @@ If you're used to using the `vercel dev` command provided by [Vercel CLI](https:
 
 -   i18n
 -   dark/light/system mode
+-   tighten up dependencies (added `strict-peer-dependencies=false` to .npmrc)
+-   improve CatchBoundary & content returned / styling
