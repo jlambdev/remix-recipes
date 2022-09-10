@@ -83,5 +83,5 @@ function Document({ children, title }: { children: React.ReactNode; title?: stri
 }
 
 function Layout({ children }: { children: React.ReactNode }) {
-  return <div className="remix-app">{children}</div>;
+  return <div className="layout">{children}</div>;
 }

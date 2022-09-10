@@ -1,0 +1,14 @@
+ol {
+  list-style-position: inside;
+}
+
+table {
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
