@@ -12,3 +12,8 @@ td {
   border: 1px solid white;
   border-collapse: collapse;
 }
+
+img {
+  max-width: 400px;
+  margin: 0 auto; /* centre align hack */
+}
