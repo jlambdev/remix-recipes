@@ -5,7 +5,7 @@ import { useLoaderData } from '@remix-run/react';
 import type { Recipe as RecipeData } from '~/types/recipe';
 import salmonLeekLasagna from '~/images/salmonleeklasagna.png';
 import recipeStylesUrl from '~/styles/recipe.css';
-import data from '~/data/leekpotatosoup.json';
+import data from '~/data/salmonleeklasagna.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 
