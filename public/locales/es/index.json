@@ -1,0 +1,8 @@
+{
+  "title": "Bienvenido a Jonny Food",
+  "description": "Aquí encontrarás una colección de recetas favoritas, sin molestos anuncios, ventanas emergentes o largas historias sobre cómo la receta fue transmitida a través de muchas generaciones. Sólo los ingredientes, las instrucciones y una foto.",
+  "recipes": {
+    "leek-potato-soup": "Sopa de puerros y patatas",
+    "salmon-leek-lasagna": "Lasaña de salmón y puerros"
+  }
+}

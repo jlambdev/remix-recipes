@@ -1,7 +1,29 @@
-import type { LinksFunction, MetaFunction } from '@remix-run/node';
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useCatch } from '@remix-run/react';
+import type { LinksFunction, LoaderFunction, MetaFunction } from '@remix-run/node';
+import { json } from '@remix-run/node';
+import {
+  Links,
+  LiveReload,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+  useCatch,
+  useLoaderData,
+  useLocation,
+} from '@remix-run/react';
+import { useChangeLanguage } from 'remix-i18next';
+import { useTranslation } from 'react-i18next';
+
+import i18next from './i18next.server';
 
 import globalStylesUrl from '~/styles/global.css';
+
+type LoaderData = { locale: string };
+
+export const loader: LoaderFunction = async ({ request }) => {
+  let locale = await i18next.getLocale(request);
+  return json<LoaderData>({ locale });
+};
 
 export const links: LinksFunction = () => {
   return [{ rel: 'stylesheet', href: globalStylesUrl }];
@@ -65,8 +87,12 @@ export function CatchBoundary() {
 }
 
 function Document({ children, title }: { children: React.ReactNode; title?: string }) {
+  let { locale } = useLoaderData<LoaderData>();
+  let { i18n } = useTranslation();
+  useChangeLanguage(locale);
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={i18n.dir()}>
       <head>
         {title ? <title>{title}</title> : null}
         <Meta />
@@ -81,7 +107,23 @@ function Document({ children, title }: { children: React.ReactNode; title?: stri
     </html>
   );
 }
+/* docs
+https://github.com/sergiodxa/remix-i18next#readme
+https://remix.run/docs/en/v1/guides/data-loading
+*/
 
 function Layout({ children }: { children: React.ReactNode }) {
-  return <div className="layout">{children}</div>;
+  const location = useLocation();
+  console.log({ location });
+
+  return (
+    <div>
+      <header>
+        <span>🇪🇸</span>
+        <span>🇩🇪</span>
+        <span>🇬🇧</span>
+      </header>
+      <main>{children}</main>
+    </div>
+  );
 }

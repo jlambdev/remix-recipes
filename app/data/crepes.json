@@ -1,0 +1,39 @@
+{
+  "name": "Crepes",
+  "title": "Crepes",
+  "serves": "2 people",
+  "ingredients": [
+    {
+      "quantity": "125g",
+      "item": "plain flour"
+    },
+    {
+      "quantity": "2",
+      "item": "eggs"
+    },
+    {
+      "quantity": "250ml",
+      "item": "milk"
+    },
+    {
+      "quantity": "50g",
+      "item": "butter"
+    },
+    {
+      "quantity": "5g",
+      "item": "sugar"
+    },
+    {
+      "item": "salt"
+    }
+  ],
+  "instructions": [
+    "Melt most of the butter in a pan or in the microwave",
+    "Mix the liquid ingredients in a bowl: melted butter, eggs and milk",
+    "Add the flour, sugar and salt",
+    "Mix together with a whisk, until you have a batter",
+    "Put a bit of butter in a pan on medium-high heat",
+    "Ladel spoons of batter into the pan. When one side is cooked and the edges start to brown, flip the pancake over",
+    "Serve with sweet or salty condiments. Enjoy :)"
+  ]
+}

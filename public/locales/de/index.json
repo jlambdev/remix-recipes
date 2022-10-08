@@ -1,0 +1,8 @@
+{
+  "title": "Willkommen bei Jonny Food",
+  "description": "Hier finden Sie eine Sammlung von Lieblingsrezepten, ohne lästige Werbung, Popups oder lange Hintergrundgeschichten darüber, wie das Rezept über viele Generationen weitergegeben wurde. Nur die Zutaten, eine Anleitung und ein Foto.",
+  "recipes": {
+    "leek-potato-soup": "Lauch-Kartoffel-Suppe",
+    "salmon-leek-lasagna": "Lasagne mit Lachs und Lauch"
+  }
+}
