@@ -30,24 +30,7 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-header {
-  height: 50px;
-  border-bottom: 2px solid white;
-  display: flex;
-  flex-direction: row-reverse;
-  font-size: 42px;
-}
-
-header span {
-  transition: 0.3s;
-}
-
-header span:hover {
-  font-size: 45px;
-  cursor: pointer;
-}
-
-main {
+.layout {
   display: flex;
   flex-direction: column;
   align-content: center;

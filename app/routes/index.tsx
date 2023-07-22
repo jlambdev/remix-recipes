@@ -24,9 +24,6 @@ export default function Index() {
       </div>
       <ul>
         <li>
-          <Link to="/crepes">Crepes</Link>
-        </li>
-        <li>
           <Link to="/leekpotatosoup">Leek &amp; Potato Soup</Link>
         </li>
         <li>
