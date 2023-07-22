@@ -1,11 +1,5 @@
-import type { LinksFunction, MetaFunction } from '@remix-run/node';
+import type { MetaFunction } from '@remix-run/node';
 import { Link } from '@remix-run/react';
-
-import indexStylesUrl from '~/styles/index.css';
-
-export const links: LinksFunction = () => {
-  return [{ rel: 'stylesheet', href: indexStylesUrl }];
-};
 
 export const meta: MetaFunction = () => {
   return {
@@ -17,17 +11,13 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <h2>Welcome to Jonny Food</h2>
-      <div>
-        Here you will find a collection of favourite recipes, with no annoying adverts, popups or long backstory about
-        how the recipe was handed down through many generations. Just the ingredients, instructions and a photo.
-      </div>
+      <h2 className="text-4xl font-bold underline">Recipes</h2>
       <ul>
         <li>
-          <Link to="/leekpotatosoup">Leek &amp; Potato Soup</Link>
+          <Link to="/leek-potato-soup">Leek &amp; Potato Soup</Link>
         </li>
         <li>
-          <Link to="/salmonleeklasagna">Salmon &amp; Leek Lasagna</Link>
+          <Link to="/salmon-leek-lasagna">Salmon &amp; Leek Lasagna</Link>
         </li>
       </ul>
     </>
