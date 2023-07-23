@@ -69,7 +69,7 @@ function Document({ children, title }: { children: React.ReactNode; title?: stri
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-gray-200">
         {children}
         <ScrollRestoration />
         <Scripts />

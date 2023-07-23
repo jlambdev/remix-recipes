@@ -1,6 +1,9 @@
 import type { MetaFunction } from '@remix-run/node';
 import { Link } from '@remix-run/react';
 
+import Center from '~/components/Center';
+import Title from '~/components/Title';
+
 export const meta: MetaFunction = () => {
   return {
     title: 'Remix recipes',
@@ -8,30 +11,24 @@ export const meta: MetaFunction = () => {
   };
 };
 
+const links: Array<[string, string]> = [
+  ['aubergine-casserole', 'Aubergine Casserole'],
+  ['beer-bratwurst', 'Bratwurst in Beer'],
+  ['broccoli-garlic-lemon', 'Broccoli with Garlic and Lemon'],
+  ['crepes', 'Crepes'],
+  ['leek-potato-soup', 'Leek & Potato Soup'],
+  ['salmon-leek-lasagna', 'Salmon & Leek Lasagna'],
+];
+
 export default function Index() {
   return (
-    <div className="">
-      <h2 className="text-3xl font-bold underline">Recipes</h2>
-      <ul>
-        <li>
-          <Link to="/aubergine-casserole">Aubergine Casserole</Link>
-        </li>
-        <li>
-          <Link to="/beer-bratwurst">Bratwurst in Beer</Link>
-        </li>
-        <li>
-          <Link to="/broccoli-garlic-lemon">Broccoli with Garlic and Lemon</Link>
-        </li>
-        <li>
-          <Link to="/crepes">Crepes</Link>
-        </li>
-        <li>
-          <Link to="/leek-potato-soup">Leek &amp; Potato Soup</Link>
-        </li>
-        <li>
-          <Link to="/salmon-leek-lasagna">Salmon &amp; Leek Lasagna</Link>
-        </li>
-      </ul>
-    </div>
+    <Center>
+      <Title underline>Recipes</Title>
+      {links.map(([url, title], index) => (
+        <p className="p-2" key={index}>
+          <Link to={`/${url}`}>{title}</Link>
+        </p>
+      ))}
+    </Center>
   );
 }
