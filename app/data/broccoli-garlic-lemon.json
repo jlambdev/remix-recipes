@@ -1,0 +1,40 @@
+{
+  "name": "Broccoli with Garlic and Lemon",
+  "title": "Broccoli with Garlic and Lemon",
+  "imageAltText": "Cooked broccoli",
+  "serves": "1-2 people",
+  "ingredients": [
+    {
+      "quantity": "1 large",
+      "item": "broccoli"
+    },
+    {
+      "quantity": "1/2",
+      "item": "lemon"
+    },
+    {
+      "quantity": "2/3 cloves",
+      "item": "garlic"
+    },
+    {
+      "quantity": "2 tbsp",
+      "item": "butter"
+    },
+    {
+      "item": "salt"
+    },
+    {
+      "item": "pepper"
+    }
+  ],
+  "instructions": [
+    "Chop the florets from the broccoli and wash them.",
+    "Add 2-3 tablespoons of water, as well as the juice of the lemon to a large pan (with a lid) and bring up to a medium heat.",
+    "When the water starts to steam, add the florets and steam for around 10 minutes.",
+    "In a separate pan, add the butter and melt on a low-medium heat.",
+    "Crush, press or mince the garlic. Add it to the butter once it starts bubbling.",
+    "Gently cook for 5 or so minutes, then transfer to the pan with the broccoli.",
+    "Add salt and pepper (about 1/2 teaspoon) to the pan and mix the contents.",
+    "Ready to serve. Enjoy on its own or as part of another dish."
+  ]
+}

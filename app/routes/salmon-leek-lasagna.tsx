@@ -3,9 +3,8 @@ import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 
 import type { Recipe as RecipeData } from '~/types/recipe';
-import salmonLeekLasagna from '~/images/salmonleeklasagna.png';
-// import recipeStylesUrl from '~/styles/recipe.css';
-import data from '~/data/salmonleeklasagna.json';
+import salmonLeekLasagna from '~/images/salmon-leek-lasagna.png';
+import data from '~/data/salmon-leek-lasagna.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 
@@ -13,11 +12,6 @@ export const loader: LoaderFunction = () => {
   return json(data);
 };
 
-// export const links: LinksFunction = () => {
-//   return [{ rel: 'stylesheet', href: recipeStylesUrl }];
-// };
-
-/* Not sure if this is the right way to combine data & MetaFunction */
 export const meta: MetaFunction = () => {
   return {
     title: data.name,

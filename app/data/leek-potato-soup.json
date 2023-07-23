@@ -1,0 +1,41 @@
+{
+  "name": "Leek & Potato Soup",
+  "title": "Leek and Potato Soup",
+  "serves": "4-5 people",
+  "ingredients": [
+    {
+      "quantity": "3",
+      "item": "leeks"
+    },
+    {
+      "quantity": "1 kg",
+      "item": "potatoes"
+    },
+    {
+      "quantity": "1 litre",
+      "item": "vegetable stock"
+    },
+    {
+      "item": "olive oil"
+    },
+    {
+      "item": "salt"
+    },
+    {
+      "item": "black pepper"
+    },
+    {
+      "item": "garlic (optional)"
+    },
+    {
+      "item": "butter (optional)"
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables: chop and clean the leeks, then peel and chop the potatoes. Chop large potatoes in half or quarters, no larger than ~1 inch.",
+    "Add 2-3 tablespoons of olive oil to a large pan (must be big enough to cook all the vegetables together) and set to a medium heat. Add some sliced garlic and butter for additional richness if you want",
+    "Cook the leeks for up to 10 minutes. Stir frequently, ensuring they don't burn.",
+    "Add the potatoes, vegetable stock and salt/pepper to taste. Simmer for 20 minutes.",
+    "In batches, blend the ingredients. Use the pulse if you prefer a chunkier soup. Serve and enjoy!"
+  ]
+}

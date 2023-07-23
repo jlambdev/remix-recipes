@@ -3,8 +3,7 @@ import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 
 import type { Recipe as RecipeData } from '~/types/recipe';
-// import recipeStylesUrl from '~/styles/recipe.css';
-import data from '~/data/leekpotatosoup.json';
+import data from '~/data/leek-potato-soup.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 
@@ -12,11 +11,6 @@ export const loader: LoaderFunction = () => {
   return json(data);
 };
 
-// export const links: LinksFunction = () => {
-//   return [{ rel: 'stylesheet', href: recipeStylesUrl }];
-// };
-
-/* Not sure if this is the right way to combine data & MetaFunction */
 export const meta: MetaFunction = () => {
   return {
     title: data.name,

@@ -1,0 +1,50 @@
+{
+  "name": "Bratwurst in Beer",
+  "title": "Bratwurst in Beer",
+  "imageAltText": "Cooked bratwurst",
+  "serves": "2-3 people",
+  "ingredients": [
+    {
+      "quantity": "2 tbsp",
+      "item": "butter"
+    },
+    {
+      "quantity": "2",
+      "item": "sliced red onions"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "caraway / cumin seeds"
+    },
+    {
+      "quantity": "1/2 tsp",
+      "item": "kosher salt"
+    },
+    {
+      "quantity": "6",
+      "item": "bratwurst sausages"
+    },
+    {
+      "quantity": "1x 350-500ml bottle",
+      "item": "black beer / dark ale"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "plain flour"
+    },
+    {
+      "item": "crusty bread (optional)"
+    }
+  ],
+  "instructions": [
+    "Melt the butter in a large pan / skillet on a medium-to-high heat.",
+    "Crush the caraway / cumin seeds into a powder.",
+    "Add the onions and crushed powder to the pan and cook for 5 minutes, until the onions are soft.",
+    "Season the onions with salt.",
+    "Lay the bratwurst over the onions, add the beer to the pan and reduce to a low heat. Simmer for 30-40 minutes, turning the bratwurst every 10 minutes or so.",
+    "Remove the bratwurst and put under the grill for 2-4 minutes to brown the outside, or cook them in a separate pan.",
+    "Remove most of the liquid from the broth, add the flour and cook at least 1 minute (this will remove the floury taste).",
+    "Add the liquid back to the broth/flour mix.",
+    "Return the bratwurst to the broth and serve from the pan, or transfer the broth to a gravy boat :)"
+  ]
+}
