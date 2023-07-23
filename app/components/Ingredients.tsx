@@ -11,16 +11,20 @@ export default function Ingredients({ serves, ingredients }: Props) {
       <h3>Ingredients</h3>
       <div>{`Serves: ${serves}`}</div>
       <table>
-        <tr>
-          <th>Amount</th>
-          <th>Item</th>
-        </tr>
-        {ingredients.map((ingredient, index) => (
-          <tr key={`ingredient-${index}`}>
-            <td>{ingredient.quantity}</td>
-            <td>{ingredient.item}</td>
+        <thead>
+          <tr>
+            <th>Amount</th>
+            <th>Item</th>
           </tr>
-        ))}
+        </thead>
+        <tbody>
+          {ingredients.map((ingredient, index) => (
+            <tr key={`ingredient-${index}`}>
+              <td>{ingredient.quantity}</td>
+              <td>{ingredient.item}</td>
+            </tr>
+          ))}
+        </tbody>
       </table>
     </>
   );
