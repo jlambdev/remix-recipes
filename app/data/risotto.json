@@ -1,0 +1,60 @@
+{
+  "name": "Mushroom and Red Wine Risotto",
+  "title": "Mushroom and Red Wine Risotto",
+  "imageAltText": "Mushroom and Red Wine Risotto",
+  "serves": "4-5 people",
+  "ingredients": [
+    {
+      "quantity": "400g",
+      "item": "mushrooms"
+    },
+    {
+      "quantity": "320g",
+      "item": "arboreo rice"
+    },
+    {
+      "quantity": "40g",
+      "item": "hard cheese (parmesan, pecorino etc.)"
+    },
+    {
+      "quantity": "1 large",
+      "item": "onion"
+    },
+    {
+      "quantity": "2 cloves",
+      "item": "garlic"
+    },
+    {
+      "quantity": "30g",
+      "item": "butter"
+    },
+    {
+      "quantity": "1 + 1/2 glass",
+      "item": "red wine"
+    },
+    {
+      "quantity": "1 litre",
+      "item": "vegetable stock (can also use chicken if preferred)"
+    },
+    {
+      "item": "olive oil"
+    },
+    {
+      "item": "salt"
+    },
+    {
+      "item": "pepper"
+    }
+  ],
+  "instructions": [
+    "Dice the onion. Crush or finely chop the garlic. Slice the mushrooms into 1.5cm-2cm cubes.",
+    "Dissolve the stock cubes, have 1 litre of stock ready to hand. Grate the cheeses.",
+    "In one pan, add about 2 tablespoons of olive oil and bring to medium heat. Add the garlic and mushrooms. Cook until the mushrooms have softened, about 10 minutes. After 5 minutes, add 2 ladels (about 150ml) of stock. Add salt and pepper to taste.",
+    "In another pan, add a tablespoon of olive oil, 2/3 of the butter and bring to medium heat to melt the butter. Once the butter is melted, add the onion. Cook the onions until they are transparent, but don't change colour. About 10 minutes.",
+    "Add the rice to the pan with the onions. Stir for 2 minutes. Add the red wine and let it evaporate completely.",
+    "Add 1-2 ladels of stock and allow the rice to absorb the liquid.",
+    "Add the mushrooms to the rice.",
+    "Then add another 1-2 ladels of stock, allow the rice to absorb and repeat until there is no stock remaining.",
+    "When the rice is al dente (almost done), take it off the heat off and add the remaining butter and the cheeses (creaming). Stir, cover with a lid and leave it for about 10 minutes. This is the 'creaming' process and allows the butter & cheeses to incorporate with the rice. It's worth the wait!"
+  ]
+}
