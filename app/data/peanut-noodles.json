@@ -1,0 +1,50 @@
+{
+  "name": "Peanut Noodles with Fried Egg",
+  "title": "Peanut Noodles with Fried Egg",
+  "imageAltText": "Peanut Noodles with Fried Egg",
+  "serves": "1 person",
+  "ingredients": [
+    {
+      "quantity": "1 1/2 tbsp",
+      "item": "peanut butter"
+    },
+    {
+      "quantity": "1 tbsp",
+      "item": "light soy sauce"
+    },
+    {
+      "quantity": "2-3 tsp",
+      "item": "sesame oil"
+    },
+    {
+      "quantity": "noodles",
+      "item": "75g"
+    },
+    {
+      "quantity": "1",
+      "item": "egg"
+    },
+    {
+      "quantity": "1/2",
+      "item": "spring onion"
+    },
+    {
+      "item": "oil for frying (e.g. olive)"
+    },
+    {
+      "item": "salt"
+    },
+    {
+      "item": "pepper"
+    }
+  ],
+  "instructions": [
+    "Finely slice the spring onion.",
+    "In a small bowl, mix the peanut butter, soy sauce and sesame oil.",
+    "Add water to a large pan and bring to boil. When boiling, add the noodles and cook to package instructions (e.g. 5 minutes).",
+    "Heat a frying pan to medium-high heat. About 3 minutes before the noodles are cooked, add a small amount of cooking oil and fry the egg. You want the white part cooked with a runny yolk.",
+    "When the noodles are ready, drain the water, then add the peanut/soy/sesame sauce to the noodles in the pan and mix together (alternatively, you can just add the noodles and sauce to the serving bowl directly & mix there).",
+    "Lay the fried egg on top of the noodles. Season with salt and pepper",
+    "Sprinkle the sliced onion over the egg. Enjoy!"
+  ]
+}
