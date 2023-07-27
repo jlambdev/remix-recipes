@@ -9,7 +9,6 @@ import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 import Title from '~/components/Title';
 import Center from '~/components/Center';
-import Image from '~/components/Image';
 
 export const loader: LoaderFunction = () => {
   return json(data);
@@ -28,7 +27,6 @@ export default function Recipe() {
   return (
     <Center>
       <Title>{data.title}</Title>
-      <Image src={aubergineCasserole} alt={data.imageAltText} />
       <Ingredients serves={data.serves} ingredients={data.ingredients} />
       <Instructions instructions={data.instructions} />
     </Center>
