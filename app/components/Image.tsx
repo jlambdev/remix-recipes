@@ -6,7 +6,7 @@ interface Props {
 export default function Image({ src, alt }: Props) {
   return (
     <div className="pl-4 pr-4">
-      <img className="rounded-3xl shadow-lg" src={src} alt={alt} />
+      <img className="rounded-full shadow-xl" src={src} alt={alt} />
     </div>
   );
 }

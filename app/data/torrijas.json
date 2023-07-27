@@ -1,0 +1,43 @@
+{
+  "name": "Torrijas",
+  "title": "Torrijas",
+  "imageAltText": "Torrijas on a plate",
+  "serves": "2-3 people",
+  "ingredients": [
+    {
+      "quantity": "600ml",
+      "item": "milk"
+    },
+    {
+      "quantity": "1 large",
+      "item": "baguette (stale)"
+    },
+    {
+      "quantity": "2",
+      "item": "eggs"
+    },
+    {
+      "quantity": "100g",
+      "item": "brown sugar + extra for coating"
+    },
+    {
+      "quantity": "2",
+      "item": "cinnamon sticks"
+    },
+    {
+      "item": "cinnamon powder"
+    },
+    {
+      "item": "sunflower oil"
+    }
+  ],
+  "instructions": [
+    "Add the milk to a pan with the sugar and 2 cinammon sticks. Bring it to boil.",
+    "Slice the baguette diagonally, about 1.5 - 2cm thick.",
+    "Pour the hot milk into a lasagna / deep tray and submerge the bread slices. Leave them in for 15 minutes each side (30 mins in total).",
+    "After 30 minutes, in a small frying pan, add enough sunflower oil to cover 1/2 of the bread's thickness, so a layer about 1.5 - 2cm thick. Bring it to a medium-high heat.",
+    "Add 2 eggs to a small bowl & beat.",
+    "When the oil is hot, take the soaked bread slices and coat them in egg, one slice at a time. Then transfer to the hot oil. Fry for about 1-2 minutes each side, until lightly golden brown (take care not to burn them).",
+    "Once done, lightly coat in cinnamon powder and sugar and leave them on some paper to absorb excess oil. Allow to cool slightly and then enjoy!"
+  ]
+}

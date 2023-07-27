@@ -17,11 +17,16 @@ const links: Array<[string, string]> = [
   ['broccoli-garlic-lemon', 'Broccoli with Garlic and Lemon'],
   ['chicken-curry', 'Chicken Curry with Mustard Seeds'],
   ['crepes', 'Crepes'],
-  ['deviled-eggs', 'Habanero Deviled Eggs'],
+  ['habanero-deviled-eggs', 'Habanero Deviled Eggs'],
+  ['jambalaya', 'Jambalaya'],
   ['leek-potato-soup', 'Leek & Potato Soup'],
   ['peanut-noodles', 'Peanut Noodles with Fried Egg'],
   ['risotto', 'Mushroom and Red Wine Risotto'],
+  ['shakshuka', 'Shakshuka'],
   ['salmon-leek-lasagna', 'Salmon & Leek Lasagna'],
+  ['spinach-feta-braid', 'Spinach and Feta Pastry Braid'],
+  ['thai-green-curry', 'Thai Green Curry'],
+  ['torrijas', 'Torrijas'],
   ['tortilla', 'Tortilla'],
 ];
 

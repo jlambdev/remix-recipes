@@ -1,0 +1,94 @@
+{
+  "name": "Jambalaya",
+  "title": "Jambalaya",
+  "imageAltText": "Jambalaya served on a plate with parsley",
+  "serves": "4-6 people",
+  "ingredients": [
+    {
+      "quantity": "700g",
+      "item": "chicken (thighs pref.)"
+    },
+    {
+      "quantity": "2/3",
+      "item": "chorizo (full sausage)"
+    },
+    {
+      "quantity": "2",
+      "item": "onions (medium)"
+    },
+    {
+      "quantity": "2 sticks",
+      "item": "celery"
+    },
+    {
+      "quantity": "1",
+      "item": "bell pepper (large)"
+    },
+    {
+      "quantity": "6-8 cloves",
+      "item": "garlic"
+    },
+    {
+      "quantity": "90g",
+      "item": "tomato puree"
+    },
+    {
+      "quantity": "1 can",
+      "item": "chopped tomatoes"
+    },
+    {
+      "quantity": "1 litre",
+      "item": "chicken stock"
+    },
+    {
+      "quantity": "400g",
+      "item": "rice"
+    },
+    {
+      "quantity": "1 + 1/2 tsp",
+      "item": "salt"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "black pepper"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "thyme"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "basil"
+    },
+    {
+      "item": "olive oil"
+    },
+    {
+      "item": "cayenne pepper"
+    },
+    {
+      "item": "fresh parsley"
+    },
+    {
+      "item": "spring onions (optional)"
+    },
+    {
+      "item": "worcestershire sauce (optional)"
+    }
+  ],
+  "instructions": [
+    "Dice the onion, peppers and celery. Mince the garlic. Slice the chorizo. Optionally, if you want to have bite-sized peices of chicken, cut the meat into 3cm cubes.",
+    "Add a tablespoon of olive oil to a large pan and bring to medium heat.",
+    "Add the chorizo. Cook for 2 minutes.",
+    "Add the chicken peices. Cook for 6-8 minutes.",
+    "Remove all the meat and keep the oil in the pan. Add another tablespoon of olive oil. Bring up to temperature.",
+    "Optionally, slice the cooked chorizo into smaller pieces (e.g. quarters). This makes the chorizo more evenly distributed at the end. If you prefer to eat bigger chorizo peices, ignore this step.",
+    "Add the onions, celery and peppers. Cook for 6-8 minutes.",
+    "Add the meat back to the pan, along with the tomato puree, chopped tomato & worcestershire sauce. Stir well and add about a teaspoon of salt.",
+    "Add the chicken stock. Bring to boil and reduce to simmer.",
+    "Add the rice. Optionally, add spring onions.",
+    "Add the thyme, basil, cayenne pepper and black pepper.",
+    "Cover and cook for 30 minutes. Give it a stir after 25 minutes. Chop some parsley.",
+    "Serve with parsley. Enjoy!"
+  ]
+}

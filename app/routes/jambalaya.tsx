@@ -3,8 +3,8 @@ import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 
 import type { Recipe as RecipeData } from '~/types/recipe';
-import eggs from '~/images/deviled-eggs.png';
-import data from '~/data/deviled-eggs.json';
+import jambalaya from '~/images/jambalaya.png';
+import data from '~/data/jambalaya.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 import Title from '~/components/Title';
@@ -28,7 +28,7 @@ export default function Recipe() {
   return (
     <Center>
       <Title>{data.title}</Title>
-      <Image src={eggs} alt={data.imageAltText} />
+      <Image src={jambalaya} alt={data.imageAltText} />
       <Ingredients serves={data.serves} ingredients={data.ingredients} />
       <Instructions instructions={data.instructions} />
     </Center>
