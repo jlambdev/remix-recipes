@@ -22,6 +22,7 @@ const links: Array<[string, string]> = [
   ['peanut-noodles', 'Peanut Noodles with Fried Egg'],
   ['risotto', 'Mushroom and Red Wine Risotto'],
   ['salmon-leek-lasagna', 'Salmon & Leek Lasagna'],
+  ['tortilla', 'Tortilla'],
 ];
 
 export default function Index() {
