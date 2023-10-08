@@ -1,0 +1,49 @@
+{
+  "name": "Carrot & Coriander Soup",
+  "title": "Carrot & Coriander Soup",
+  "imageAltText": "Carrot & Coriander Soup",
+  "serves": "3-4 people",
+  "ingredients": [
+    {
+      "quantity": "500g",
+      "item": "carrots"
+    },
+    {
+      "quantity": "2 potatoes",
+      "item": "feta cheese"
+    },
+    {
+      "quantity": "1",
+      "item": "yellow onion (medium)"
+    },
+    {
+      "quantity": "1 litre",
+      "item": "vegetable stock"
+    },
+    {
+      "quantity": "1 tsp",
+      "item": "ground coriander"
+    },
+    {
+      "quantity": "1/2 bunch",
+      "item": "fresh coriander (optional)"
+    },
+    {
+      "item": "salt"
+    },
+    {
+      "item": "olive oil"
+    },
+    {
+      "item": "bread (optional)"
+    }
+  ],
+  "instructions": [
+    "Dice the onion, chop the carrots into slices and the potato into 1cm cubes. Prepare the vegetable stock",
+    "Heat a pan on medium high heat. Add 1 tbsp of oil and fry the onions for 5 minutes.",
+    "Add the ground coriander to the onions. Then add the potato and cook for 1 minute.",
+    "Add the carrots and brown for 1-2 minutes.",
+    "Add the mix to a saucepan with the vegetable stock and simmer for around 20 minutes.",
+    "Mix in a food processor with the fresh coriander and some salt to taste."
+  ]
+}

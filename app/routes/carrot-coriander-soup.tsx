@@ -3,7 +3,7 @@ import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 
 import type { Recipe as RecipeData } from '~/types/recipe';
-import shakshuka from '~/images/shakshuka.png';
+import carrotCorianderSoup from '~/images/carrot-coriander-soup.png';
 import data from '~/data/shakshuka.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
@@ -28,7 +28,7 @@ export default function Recipe() {
   return (
     <Center>
       <Title>{data.title}</Title>
-      <Image src={shakshuka} alt={data.imageAltText} />
+      <Image src={carrotCorianderSoup} alt={data.imageAltText} />
       <Ingredients serves={data.serves} ingredients={data.ingredients} />
       <Instructions instructions={data.instructions} />
     </Center>

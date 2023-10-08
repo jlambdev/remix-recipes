@@ -15,6 +15,7 @@ const links: Array<[string, string]> = [
   ['aubergine-casserole', 'Aubergine Casserole'],
   ['beer-bratwurst', 'Bratwurst in Beer'],
   ['broccoli-garlic-lemon', 'Broccoli with Garlic and Lemon'],
+  ['carrot-coriander-soup', 'Carrot & Coriander Soup'],
   ['chicken-curry', 'Chicken Curry with Mustard Seeds'],
   ['crepes', 'Crepes'],
   ['habanero-deviled-eggs', 'Habanero Deviled Eggs'],
