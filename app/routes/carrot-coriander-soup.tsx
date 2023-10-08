@@ -4,7 +4,7 @@ import { useLoaderData } from '@remix-run/react';
 
 import type { Recipe as RecipeData } from '~/types/recipe';
 import carrotCorianderSoup from '~/images/carrot-coriander-soup.png';
-import data from '~/data/shakshuka.json';
+import data from '~/data/carrot-coriander-soup.json';
 import Ingredients from '~/components/Ingredients';
 import Instructions from '~/components/Instructions';
 import Title from '~/components/Title';
